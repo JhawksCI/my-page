@@ -25,14 +25,14 @@ const games = [
         title: "in progess",
         description: "in progress",
         image: "assets/images/img2.webp",
-        tag: "Plateforme",
+        tag: "?",
         link: "https://jhawks225.itch.io/nom-du-jeu-2"
     },
     {
         title: "in progress",
         description: "in progress",
         image: "assets/images/img3.webp",
-        tag: "Puzzle",
+        tag: "?",
         link: "https://jhawks225.itch.io/nom-du-jeu-3"
     }
 ];
