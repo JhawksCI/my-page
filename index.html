@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de développeur de jeux vidéo. Découvrez mes jeux jouables et téléchargeables sur itch.io.">
+    <meta name="author" content="Votre Nom">
+    <title>JHawks — Développeur de Jeux Vidéo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%AE%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+    <!-- ============ BARRE DE NAVIGATION FIXE ============ -->
+    <header class="navbar" id="top">
+        <div class="nav-container">
+            <a href="#accueil" class="logo" aria-label="Accueil">
+                <span class="logo-icon">🎮</span>
+                <span class="logo-text">Votre<span>Nom</span></span>
+            </a>
+
+            <!-- Bouton menu mobile -->
+            <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navMenu">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+
+            <nav class="nav-menu" id="navMenu" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                    <li><a href="#jeux" class="nav-link">Mes Jeux</a></li>
+                    <li><a href="#apropos" class="nav-link">À propos</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ============ SECTION ACCUEIL (HERO) ============ -->
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <p class="hero-eyebrow">Développeur de Jeux Vidéo</p>
+                <h1 class="hero-title">Je crée des mondes <span class="gradient-text">jouables</span>.</h1>
+                <p class="hero-subtitle">
+                    Bienvenue sur mon portfolio. Découvrez mes jeux, de l'prototype à la version finale —
+                    tous jouables et téléchargeables sur itch.io.
+                </p>
+                <div class="hero-actions">
+                    <a href="#jeux" class="btn btn-primary">Voir mes jeux</a>
+                    <a href="#apropos" class="btn btn-ghost">En savoir plus</a>
+                </div>
+            </div>
+            <div class="hero-scroll" aria-hidden="true">
+                <span></span>
+            </div>
+        </section>
+
+        <!-- ============ SECTION MES JEUX ============ -->
+        <section id="jeux" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <p class="section-eyebrow">Portfolio</p>
+                    <h2 class="section-title">Mes Jeux</h2>
+                    <p class="section-desc">Une sélection de mes projets. Cliquez pour jouer ou télécharger.</p>
+                </header>
+
+                <!-- La grille est remplie dynamiquement par main.js -->
+                <div class="games-grid" id="gamesGrid">
+                    <!-- Les cartes de jeux sont injectées ici -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SECTION À PROPOS ============ -->
+        <section id="apropos" class="section section-alt">
+            <div class="container about-container">
+                <header class="section-header">
+                    <p class="section-eyebrow">À propos</p>
+                    <h2 class="section-title">Qui suis-je ?</h2>
+                </header>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Je suis <strong>développeur de jeux vidéo</strong> passionné par la création
+                            d'expériences interactives. Je travaille principalement avec
+                            <em>Godot</em>, et malheuresement je n'ai pas encore participé à des game jams.
+                        </p>
+                        <p>
+                            Mon objectif : concevoir des jeux à la fois accessibles et mémorables.
+                            N'hésitez pas à parcourir mes projets ci-dessus ou à me contacter pour une collaboration.
+                        </p>
+                        <h3 class="about-skills-title">Compétences</h3>
+                        <ul class="skills-list">
+                            <li>Unity (C#)</li>
+                            <li>Godot (GDScript)</li>
+                            <li>Game Design</li>
+                            <li>Pixel Art</li>
+                            <li>Sound Design</li>
+                        </ul>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">Jeux publiés</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">0</span>
+                            <span class="stat-label">Game jams</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">Ans d'expérience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SECTION CONTACT ============ -->
+        <section id="contact" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <p class="section-eyebrow">Contact</p>
+                    <h2 class="section-title">Travaillons ensemble</h2>
+                    <p class="section-desc">Une question, une collaboration ou juste envie d'échanger ?</p>
+                </header>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <a href="mailto:jhawksci@gmail.com" class="contact-link">
+                            <span class="contact-icon" aria-hidden="true">✉️</span>
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">jhawksci@gmail.com</span>
+                        </a>
+                    </div>
+                    <div class="contact-card">
+                        <a href="https://jhawks225.itch.io" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <span class="contact-icon" aria-hidden="true">🎮</span>
+                            <span class="contact-label">itch.io</span>
+                            <span class="contact-value">JHawks</span>
+                        </a>
+                    </div>
+                    <div class="contact-card">
+                        <a href="https://twitter.com/votre-nom" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <span class="contact-icon" aria-hidden="true">🐦</span>
+                            <span class="contact-label">Twitter / X</span>
+                            <span class="contact-value">@votre-nom</span>
+                        </a>
+                    </div>
+                    <div class="contact-card">
+                        <a href="https://github.com/JhawksCI" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <span class="contact-icon" aria-hidden="true">💻</span>
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">github.com/JhawksCI</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; <span id="year"></span> JHawks. Tous droits réservés.</p>
+            <p class="footer-made">Conçu avec passion.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
