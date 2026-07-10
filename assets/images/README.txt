@@ -1,7 +1,7 @@
 DOSSIER DES IMAGES — Portfolio
 ================================
 
-Placez ici les screenshots de vos jeux.
+Placez ici les screenshots de mes jeux.
 
 Conventions recommandées pour optimiser l'affichage :
 ------------------------------------------------------
