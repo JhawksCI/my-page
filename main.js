@@ -22,18 +22,18 @@ const games = [
         link: "https://jhawks225.itch.io/donjon-de-lombre"
     },
     {
-        title: "Nom du Jeu 2",
-        description: "Plateformer rétro avec une mécanique de temps. Réalisé lors d'une game jam en 48 heures.",
-        image: "assets/images/game-2.jpg",
+        title: "in progess",
+        description: "in progress",
+        image: "assets/images/game2.jpg",
         tag: "Plateforme",
-        link: "https://votre-nom.itch.io/nom-du-jeu-2"
+        link: "https://jhawks225.itch.io/nom-du-jeu-2"
     },
     {
-        title: "Nom du Jeu 3",
-        description: "Puzzle game narratif où chaque décision compte. Mon projet le plus ambitieux à ce jour.",
-        image: "assets/images/game-3.jpg",
+        title: "in progress",
+        description: "in progress",
+        image: "assets/images/game3.jpg",
         tag: "Puzzle",
-        link: "https://votre-nom.itch.io/nom-du-jeu-3"
+        link: "https://jhawks225.itch.io/nom-du-jeu-3"
     }
 ];
 
