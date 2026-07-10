@@ -17,7 +17,7 @@ const games = [
     {
         title: "Donjon De L'Ombre",
         description: "Une courte description du jeu, son genre et ce qui le rend unique. Restez concis pour garder la carte lisible.",
-        image: "assets/images/game-1.png",
+        image: "assets/images/game1.webp",
         tag: "Role Playing",
         link: "https://jhawks225.itch.io/donjon-de-lombre"
     },
